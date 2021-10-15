@@ -1,10 +1,12 @@
 import type { NextPage } from "next";
+import Button from "../component/atoms/Button";
 
 const Home: NextPage = () => {
   return (
     <div>
-      <div>next</div>
-      <div>hello</div>
+      <Button>
+        <div>button here</div>
+      </Button>
     </div>
   );
 };

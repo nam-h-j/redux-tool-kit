@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 
 export interface ButtonProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 function Button({ children }: ButtonProps) {
