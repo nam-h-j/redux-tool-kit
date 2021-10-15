@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "sass": "^1.36.0",
     "@reduxjs/toolkit": "^1.6.2",
     "@types/react-redux": "^7.1.19",
     "next": "11.1.2",
